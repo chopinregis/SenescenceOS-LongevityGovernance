@@ -29,6 +29,10 @@ Inquiries: regisndetene@gmail.com  ·  [SPA Inc. profile](https://github.com/cho
 ---
 
 
+
+
+
+
 **SenescenceOS**
 
 **Longevity Damage Governance Architecture**
@@ -38,7 +42,7 @@ Inquiries: regisndetene@gmail.com  ·  [SPA Inc. profile](https://github.com/cho
 
 **v1.0 REV2**
 
-**Architect: Regis Benoit Brice Nde Tene**
+**Architect:** Regis Benoit Brice Nde Tene
 
 **March 2026**
 
@@ -60,109 +64,109 @@ Inquiries: regisndetene@gmail.com  ·  [SPA Inc. profile](https://github.com/cho
 # **TABLE OF CONTENTS**
 
 
-**EXECUTIVE SUMMARY**
+**EXECUTIVE SUMMARY**	
 
-**SECTION 1: THE STRUCTURAL FAILURE**
+**SECTION 1: THE STRUCTURAL FAILURE**	
 
-1.1  The Two-Scale Latency Gap
+1.1  The Two-Scale Latency Gap	
 
-1.2  The RMR Operational Surface
+1.2  The RMR Operational Surface	
 
-1.3  The RMR Milestone Threshold — Pinned
+1.3  The RMR Milestone Threshold — Pinned	
 
-1.4  What Is Treated as Data Rather Than Logic
+1.4  What Is Treated as Data Rather Than Logic	
 
-1.5  Cost of the Governance Gap
+1.5  Cost of the Governance Gap	
 
-**SECTION 2: ARCHITECTURAL INVARIANTS**
+**SECTION 2: ARCHITECTURAL INVARIANTS**	
 
-2.1  SPA as Trust Backbone
+2.1  SPA as Trust Backbone	
 
-2.2  语境生义 (Yǔjìng shēng yì) — Context Creates Meaning
+2.2  语境生义 (Yǔjìng shēng yì) — Context Creates Meaning	
 
-**SECTION 3: THE RMR PROGRAM AS PRIMARY DEPLOYMENT SURFACE**
+**SECTION 3: THE RMR PROGRAM AS PRIMARY DEPLOYMENT SURFACE**	
 
-3.1  Architecture Orientation
+3.1  Architecture Orientation	
 
-3.2  What the RMR Program Currently Does
+3.2  What the RMR Program Currently Does	
 
-3.3  What SenescenceOS Adds to the RMR Program
+3.3  What SenescenceOS Adds to the RMR Program	
 
-**SECTION 4: THE SENS FRAMEWORK AS GOVERNING ONTOLOGY**
+**SECTION 4: THE SENS FRAMEWORK AS GOVERNING ONTOLOGY**	
 
-4.1  The Seven Gates — From Descriptive to Executable
+4.1  The Seven Gates — From Descriptive to Executable	
 
-4.2  De Grey’s Three-Stage Model as SPA Process Logic
+4.2  De Grey’s Three-Stage Model as SPA Process Logic	
 
-**SECTION 5: THRESHOLD TABLES**
+**SECTION 5: THRESHOLD TABLES**	
 
-5.1  Damage Accumulation Velocity Thresholds — Module 1
+5.1  Damage Accumulation Velocity Thresholds — Module 1	
 
-5.2  Repair Capacity Thresholds — Module 2
+5.2  Repair Capacity Thresholds — Module 2	
 
-5.3  Cross-Damage Coherence Thresholds — Module 3 — PRIMARY GATE
+5.3  Cross-Damage Coherence Thresholds — Module 3 — PRIMARY GATE	
 
-5.4  Baseline Normalization Parameters — Module 4
+5.4  Baseline Normalization Parameters — Module 4	
 
-5.5  Irreversible Damage Thresholds — Module 5
+5.5  Irreversible Damage Thresholds — Module 5	
 
-**SECTION 6: PHASE JITTER AND STABILITY INDICATORS**
+**SECTION 6: PHASE JITTER AND STABILITY INDICATORS**	
 
-**SECTION 7: THE VALIDATOR NODE PIPELINE**
+**SECTION 7: THE VALIDATOR NODE PIPELINE**	
 
-7.1  The Dual-Scale Window Engine
+7.1  The Dual-Scale Window Engine	
 
-**SECTION 8: AGENCY GATE CHECKLIST**
+**SECTION 8: AGENCY GATE CHECKLIST**	
 
-**SECTION 9: PROHIBITED CONTENT RULES**
+**SECTION 9: PROHIBITED CONTENT RULES**	
 
-**SECTION 10: CERTIFICATION TIERS**
+**SECTION 10: CERTIFICATION TIERS**	
 
-**SECTION 11: EPISTEMIC BOUNDARY**
+**SECTION 11: EPISTEMIC BOUNDARY**	
 
-11.1  What the Architecture Claims
+11.1  What the Architecture Claims	
 
-11.2  What Requires Joint Empirical Calibration
+11.2  What Requires Joint Empirical Calibration	
 
-11.3  What Is Not Confirmable Without Domain Authority Input
+11.3  What Is Not Confirmable Without Domain Authority Input	
 
-**SECTION 12: HISTORICAL PRE-MORTEM**
+**SECTION 12: HISTORICAL PRE-MORTEM**	
 
-12.1  TYPE A — RMR Milestone Gap
+12.1  TYPE A — RMR Milestone Gap	
 
-12.2  TYPE B — Caloric Restriction Primate Divergence
+12.2  TYPE B — Caloric Restriction Primate Divergence	
 
-12.3  TYPE C (Supplementary) — 2005 EMBO Report
+12.3  TYPE C (Supplementary) — 2005 EMBO Report	
 
-**APPENDIX A: DEPLOYMENT CLASSIFICATION**
+**APPENDIX A: DEPLOYMENT CLASSIFICATION**	
 
-**APPENDIX B: VARIABLE DICTIONARY**
+**APPENDIX B: VARIABLE DICTIONARY**	
 
-B.0  Symbol Table
+B.0  Symbol Table	
 
-B.1  Formula Block
+B.1  Formula Block	
 
-**APPENDIX C: VALIDATOR NODE JSON CONTRACTS**
+**APPENDIX C: VALIDATOR NODE JSON CONTRACTS**	
 
-**APPENDIX D: VALIDATION MATRIX**
+**APPENDIX D: VALIDATION MATRIX**	
 
-**APPENDIX E: CALIBRATION DATASET SPECIFICATION**
+**APPENDIX E: CALIBRATION DATASET SPECIFICATION**	
 
-E.1  Parameters Requiring Calibration
+E.1  Parameters Requiring Calibration	
 
-E.2  Calibration Timeline
+E.2  Calibration Timeline	
 
-E.3  Calibration Signature Block
 
-E.4  Calibration Philosophy
 
-E.5  Hindcast Validation Events
+E.3  Calibration Philosophy	
 
-E.6  Failure Archetypes — Adversarial Calibration
+E.4  Hindcast Validation Events	
 
-**REFERENCES**
+E.5  Failure Archetypes — Adversarial Calibration	
 
-**CLOSING PRINCIPLE**
+**REFERENCES**	
+
+**CLOSING PRINCIPLE**	
 
 
 # **EXECUTIVE SUMMARY**
@@ -170,18 +174,18 @@ E.6  Failure Archetypes — Adversarial Calibration
 
 **SenescenceOS is a Sovereign Process Architecture deployment targeting the LEV Foundation's Robust Mouse Rejuvenation program. Its purpose is singular: to close the governance gap between continuous damage accumulation and discrete endpoint detection in longitudinal rejuvenation research.**
 
-**Distinctive contribution: SenescenceOS is the first formalization of the seven SENS damage categories as governed process states. Not a descriptive taxonomy — those already exist. Executable gates with defined thresholds, trajectory requirements, coherence requirements, and epistemic boundaries. The seven categories named by the SENS framework describe what needs to be repaired. SenescenceOS encodes what constitutes evidence that repair is occurring, is coherent across categories, and meets the provenance standards required to authorize a claim.**
+**Distinctive contribution:** SenescenceOS is the first formalization of the seven SENS damage categories as governed process states. Not a descriptive taxonomy — those already exist. Executable gates with defined thresholds, trajectory requirements, coherence requirements, and epistemic boundaries. The seven categories named by the SENS framework describe what needs to be repaired. SenescenceOS encodes what constitutes evidence that repair is occurring, is coherent across categories, and meets the provenance standards required to authorize a claim.
 
 **The Strategies for Engineered Negligible Senescence framework correctly identifies the biology of aging. Seven categories of molecular and cellular damage accumulate continuously throughout life, and pathology emerges when that accumulation crosses a threshold. This is the right science. The governance problem is not about the science.**
 
-**The governance problem is this: these seven damage categories are currently treated as data to be stored, not logic to be enforced. Measurements of damage markers — mtDNA deletions, glucosepane cross-links, senescent cell burden — are stored as experimental results. They are not used to dynamically trigger intervention decisions, flag trajectory deviations, or maintain a real-time flight recorder of the damage-repair equilibrium. The reasoning chain that could detect intervention failure weeks before the study endpoint disappears in scattered assay records, lab notebooks, and periodic publications.**
+**The governance problem is this:** these seven damage categories are currently treated as data to be stored, not logic to be enforced. Measurements of damage markers — mtDNA deletions, glucosepane cross-links, senescent cell burden — are stored as experimental results. They are not used to dynamically trigger intervention decisions, flag trajectory deviations, or maintain a real-time flight recorder of the damage-repair equilibrium. The reasoning chain that could detect intervention failure weeks before the study endpoint disappears in scattered assay records, lab notebooks, and periodic publications.
 
 **In the three-stage framing established by the SENS framework (de Grey 2007): Metabolism → Damage → Pathology. SenescenceOS governs the Damage stage with the rigor that the science of the Pathology stage demands.**
 
 **The Robust Mouse Rejuvenation program provides the specific operational anchor for this architecture. RMR1 deploys 500 male and 500 female mice across 10 groups with survival-linked longitudinal assessments, blood sampling, and cull scheduling tied to in-group survival curves. RMR2 expands to 20 treatment combinations, 1,000 male and 1,000 female mice, introduces repeated damage-repair interventions, and adds smart-cage monitoring. SenescenceOS is built against this program, not against longevity science in the abstract.**
 
 
-# **SECTION 1: THE STRUCTURAL FAILURE**
+# **SECTION 1:** THE STRUCTURAL FAILURE
 
 
 **The Robust Mouse Rejuvenation program — and the broader SENS research enterprise — has a problem that is not about the biology of aging or the validity of SENS interventions. It is about the governance of damage-accumulation trajectories: the latency between when a correctable failure in an experimental pipeline becomes detectable and when it is detected, and the absence of a real-time system to verify that interventions are producing coherent corrections before the study endpoint is reached.**
@@ -214,7 +218,7 @@ E.6  Failure Archetypes — Adversarial Calibration
 
 - **Blood sampling at defined protocol intervals; cull scheduling driven by in-group survival data**
 
-- **Success criterion: increase in both mean and maximum lifespan by a minimum of 12 months relative to controls (LEV Foundation published program target)**
+- **Success criterion:** increase in both mean and maximum lifespan by a minimum of 12 months relative to controls (LEV Foundation published program target)
 
 **RMR2 (expands on RMR1):**
 
@@ -260,12 +264,12 @@ E.6  Failure Archetypes — Adversarial Calibration
 
 ## **1.5  Cost of the Governance Gap**
 
-**At RMR pipeline level: A failed detection of trajectory divergence between arms early in RMR2’s 20-combination design means a full study arm may reach mortality endpoint before the divergence is attributed to a governance gap rather than a biological one. One missed detection is measured in years of delayed iteration and tens of thousands of dollars in study cost that cannot be recovered.**
+**At RMR pipeline level:** A failed detection of trajectory divergence between arms early in RMR2’s 20-combination design means a full study arm may reach mortality endpoint before the divergence is attributed to a governance gap rather than a biological one. One missed detection is measured in years of delayed iteration and tens of thousands of dollars in study cost that cannot be recovered.
 
-**SenescenceOS claim boundary: This architecture claims to close the detection latency gap in the RMR experimental pipeline. It does not claim to prevent organism-level pathology directly.**
+**SenescenceOS claim boundary:** This architecture claims to close the detection latency gap in the RMR experimental pipeline. It does not claim to prevent organism-level pathology directly.
 
 
-# **SECTION 2: ARCHITECTURAL INVARIANTS**
+# **SECTION 2:** ARCHITECTURAL INVARIANTS
 
 
 **SenescenceOS is built on four invariants that govern every deployment of the Sovereign Process Architecture, and one guiding principle that gives those invariants their interpretive force. These are not design preferences. They are load-bearing walls. Removing any one collapses the structure. A system that violates any invariant is not a SPA deployment — it is a monitoring tool with SPA vocabulary attached. The distinction matters for institutional credibility.**
@@ -293,7 +297,7 @@ E.6  Failure Archetypes — Adversarial Calibration
 **The C\_BO parameter is the governance variable that makes Context A and Context B interpretable at the macro scale. Without a calibrated C\_BO mapping function, the architecture cannot authorize survival-trajectory claims regardless of how favorable the micro window biomarker data appears. This is AG-04 in action — and it is the highest-priority calibration item in Appendix E.**
 
 
-# **SECTION 3: THE RMR PROGRAM AS PRIMARY DEPLOYMENT SURFACE**
+# **SECTION 3:** THE RMR PROGRAM AS PRIMARY DEPLOYMENT SURFACE
 
 
 ## **3.1  Architecture Orientation**
@@ -306,7 +310,7 @@ E.6  Failure Archetypes — Adversarial Calibration
 
 **Interventions are applied to cohort groups at defined initiation points. Longitudinal assessments are scheduled based on in-group survival curves. Blood sampling occurs at protocol-defined intervals. Smart-cage monitoring (RMR2) provides continuous behavioral and physiological readouts between scheduled assessments. Endpoint data — survival and cause of death — are the primary outputs.**
 
-**What is currently absent: A governance layer that processes the longitudinal assessment data into trajectory slopes, detects coherence between damage category trajectories, flags arm-level divergence before the endpoint, and produces a signed audit trail of intervention decisions tied to process state rather than researcher judgment.**
+**What is currently absent:** A governance layer that processes the longitudinal assessment data into trajectory slopes, detects coherence between damage category trajectories, flags arm-level divergence before the endpoint, and produces a signed audit trail of intervention decisions tied to process state rather than researcher judgment.
 
 ## **3.3  What SenescenceOS Adds to the RMR Program**
 
@@ -318,10 +322,10 @@ E.6  Failure Archetypes — Adversarial Calibration
 | **Smart-cage streams (RMR2)** | **Continuous data stored** | **Continuous Module 1 (velocity) and Module 3 (coherence) inputs — near-real-time trajectory updating** |
 | **20-arm design (RMR2)** | **Arms analyzed independently at endpoint** | **AG-03 cross-arm coherence gate — divergence between arms detected within study window, not at endpoint** |
 | **Intervention decisions** | **Researcher judgment** | **Gate-authorized — no intervention modification claim authorized without AG-01 through AG-08 pass** |
-| **Success determination** | **Endpoint mortality data** | **Tier certification — process record plus signed Appendix E.3 required for Tier 2 or Tier 1** |
+| **Success determination** | **Endpoint mortality data** | **Tier certification — process record plus completed calibration required for Tier 2 or Tier 1** |
 
 
-# **SECTION 4: THE SENS FRAMEWORK AS GOVERNING ONTOLOGY**
+# **SECTION 4:** THE SENS FRAMEWORK AS GOVERNING ONTOLOGY
 
 
 **The SENS framework provides the exact vocabulary for SenescenceOS gate names. The seven damage categories defined by de Grey and colleagues are not peripheral references — they are the gate vocabulary that the validator executes against. These categories are currently descriptive. What they do not currently provide is an executable governance layer: no real-time thresholds, no coherence gates between categories, no epistemic boundaries, no trajectory verification requirement before efficacy claims are released.**
@@ -347,10 +351,10 @@ E.6  Failure Archetypes — Adversarial Calibration
 **The three-stage framing of aging in the SENS framework (de Grey 2007): Metabolism → Damage → Pathology. SenescenceOS governs the Damage stage. Metabolism produces damage as a side effect of normal cellular activity. Damage accumulates across the seven categories over time. When damage crosses a pathogenic threshold, pathology emerges. SenescenceOS makes the Damage stage governable: it tracks damage trajectories in real time, verifies that interventions are producing coherent corrections across all seven categories, and produces an auditable record that can be defended to funders, regulators, and the scientific community.**
 
 
-# **SECTION 5: THRESHOLD TABLES**
+# **SECTION 5:** THRESHOLD TABLES
 
 
-*All thresholds below are engineering estimates pending joint calibration with the domain authority. The calibration status column is present on every table. No threshold may be presented as calibrated in any external communication without completing Appendix E.3.*
+*All thresholds below are engineering estimates pending joint calibration with the domain authority. The calibration status column is present on every table. No threshold may be presented as calibrated in any external communication without empirical calibration.*
 
 ## **5.1  Damage Accumulation Velocity Thresholds — Module 1**
 
@@ -390,7 +394,7 @@ E.6  Failure Archetypes — Adversarial Calibration
 | **Irreversible damage fraction threshold** | **I\_rev** | **Lower better — fraction above this level may not respond to current SENS interventions** | **Engineering estimate pending calibration** | **Intervention efficacy vs damage burden study** |
 
 
-# **SECTION 6: PHASE JITTER AND STABILITY INDICATORS**
+# **SECTION 6:** PHASE JITTER AND STABILITY INDICATORS
 
 
 **The Biological Star Physics model governs process equilibrium in every SPA deployment:**
@@ -399,17 +403,17 @@ E.6  Failure Archetypes — Adversarial Calibration
 
 - **Gravity (The Pull): Damage accumulation rate, entropy production, irreversible loss — the processes SENS interventions oppose**
 
-- **Phase Jitter: Micro-instabilities in cross-damage coherence signal preceding failure, detected via windowed cross-correlation lag variance across the seven SENS gate streams**
+- **Phase Jitter:** Micro-instabilities in cross-damage coherence signal preceding failure, detected via windowed cross-correlation lag variance across the seven SENS gate streams
 
 | **Indicator** | **Symbol** | **Stable State** | **Warning State** | **Critical State** | **Calibration Status** |
 | - | - | - | - | - | - |
 | **Damage Accumulation Velocity state** | **DAV** | **Low and stable — damage burden not accelerating** | **Rising — intervention window narrowing** | **Accelerating — threshold crossing imminent** | **Engineering estimate pending calibration** |
 | **Cross-Damage Coherence Jitter Index** | **CJI** | **Low variance — seven categories moving coherently** | **Rising variance — coherence beginning to degrade** | **High variance — systemic incoherence** | **Engineering estimate pending calibration** |
 
-**CJI directionality: CJI is a variance-like index — higher values indicate instability. Rising CJI under a favorable DAV reading is the earliest available signal of incoherence — the governance intervention point before macroscopic gate failure.**
+**CJI directionality:** CJI is a variance-like index — higher values indicate instability. Rising CJI under a favorable DAV reading is the earliest available signal of incoherence — the governance intervention point before macroscopic gate failure.
 
 
-# **SECTION 7: THE VALIDATOR NODE PIPELINE**
+# **SECTION 7:** THE VALIDATOR NODE PIPELINE
 
 
 **No stage is skipped. Each stage produces artifacts required by the next. A stage skip — regardless of rationale — produces an unauthorized output.**
@@ -427,28 +431,28 @@ E.6  Failure Archetypes — Adversarial Calibration
 
 ## **7.1  The Dual-Scale Window Engine**
 
-**SenescenceOS requires two architecturally distinct window engines. They must not be collapsed. The theoretical basis for the macro window is Phoenix & de Grey (2007, *AGE* 29:171–180).**
+***SenescenceOS requires two architecturally distinct window engines. They must not be collapsed. The theoretical basis for the macro window is Phoenix & de Grey (2007, ***AGE** 29:171–180).**
 
 **Macro Window Engine — organism-level trajectory governance**
 
-- **Primary temporal unit: decades**
+- **Primary temporal unit:** decades
 
-- **Window closure triggers: (a) survival endpoint event; (b) pathogenic threshold crossing confirmed by histopathology; (c) study protocol termination**
+- **Window closure triggers:** (a) survival endpoint event; (b) pathogenic threshold crossing confirmed by histopathology; (c) study protocol termination
 
-- **Prohibited inference: macro window claims may not be derived from micro window data alone**
+- **Prohibited inference:** macro window claims may not be derived from micro window data alone
 
 **Micro Window Engine — RMR pipeline governance (primary operational engine)**
 
-- **Primary temporal unit: weeks to months — exact duration is W\_micro, pending RMR protocol confirmation at C0**
+- **Primary temporal unit:** weeks to months — exact duration is W\_micro, pending RMR protocol confirmation at C0
 
-- **Window closure triggers: (a) per-protocol cull event; (b) anomaly detection trigger; (c) smart-cage event flag in RMR2; (d) arm termination decision by study protocol**
+- **Window closure triggers:** (a) per-protocol cull event; (b) anomaly detection trigger; (c) smart-cage event flag in RMR2; (d) arm termination decision by study protocol
 
-- **Prohibited inference: micro window gate pass does not authorize macro window inference; a favorable micro window trajectory does not authorize an organism-level lifespan claim**
+- **Prohibited inference:** micro window gate pass does not authorize macro window inference; a favorable micro window trajectory does not authorize an organism-level lifespan claim
 
-**Nested governance rule: Both engines must be active for all RMR deployments. An output that collapses the two scales is a Prohibited Content violation under PC-04.**
+**Nested governance rule:** Both engines must be active for all RMR deployments. An output that collapses the two scales is a Prohibited Content violation under PC-04.
 
 
-# **SECTION 8: AGENCY GATE CHECKLIST**
+# **SECTION 8:** AGENCY GATE CHECKLIST
 
 
 **All eight gates must pass. This is a binary checklist — not a weighted scoring formula, not a threshold average, not a best-effort evaluation. If any single gate fails, the claim is blocked. Systemic coherence (AG-03) dominates before any local claim is permitted, without exception.**
@@ -458,14 +462,14 @@ E.6  Failure Archetypes — Adversarial Calibration
 | **AG-01** | **Provenance Completeness** | **Every data point traceable to named assay\_id, RMR protocol version, active window\_id, and cohort arm designation** | **Block claim; log specific missing provenance element; return for resubmission** |
 | **AG-02** | **Trajectory Window Minimum** | **Minimum 3 data points within the active micro window before any slope or velocity claim is authorized** | **Block slope claim; flag output as snapshot only; require additional assessment events** |
 | **AG-03** | **Cross-Damage Coherence \[PRIMARY GATE — Xin\]** | **C\_sys above C\_pass threshold; all tracked SENS categories for this arm show coherent trajectory direction** | **Demote ALL local claims for this arm; log coherence degradation with specific category divergence; hold pending investigation** |
-| **AG-04** | **Biomarker-Outcome Calibration** | **C\_BO mapping must be calibrated before any survival prediction or lifespan extension claim is authorized** | **Block prediction; require calibrated C\_BO mapping with Appendix E.3 signature OR explicit uncalibrated disclosure label** |
+| **AG-04** | **Biomarker-Outcome Calibration** | **C\_BO mapping must be calibrated before any survival prediction or lifespan extension claim is authorized** | **Block prediction; require calibrated C\_BO mapping OR explicit uncalibrated disclosure label** |
 | **AG-05** | **Baseline Normalization** | **Strain, sex, age at intervention initiation, and housing conditions documented; N\_coeff applied before cross-arm comparison** | **Block cross-arm comparison; require normalization documentation for both arms being compared** |
 | **AG-06** | **Recovery Context Integrity** | **No negative damage trajectory claim authorized without documented repair capacity state (R\_baseline, F\_crit) and explicit assay detection limit statement** | **Block negative claim; log recovery context missing; require Module 2 documentation and assay specification** |
 | **AG-07** | **Entropy Boundary** | **Irreversible damage fraction below I\_rev threshold OR explicitly disclosed as above threshold** | **Block efficacy claim above entropy boundary without explicit disclosure** |
 | **AG-08** | **Epistemic Boundary Seal** | **All threshold values in output carry calibration status label; no uncalibrated parameter presented as calibrated** | **Block output; require calibration status disclosure on all parameters before signing** |
 
 
-# **SECTION 9: PROHIBITED CONTENT RULES**
+# **SECTION 9:** PROHIBITED CONTENT RULES
 
 
 **The following claim classes are architecturally blocked by the Deterministic Validator regardless of input values, favorable results, or researcher authority. These rules are not guidelines — they are hard blocks in the V4 Gate stage.**
@@ -478,24 +482,24 @@ E.6  Failure Archetypes — Adversarial Calibration
 
 **PC-04 — No Human Extrapolation Without Explicit Scaling Boundary No projection of human lifespan extension from RMR mouse data without an explicit, named epistemic boundary drawing the scaling uncertainty. This boundary belongs in Section 11 of any derivative document that makes a human-scale claim.**
 
-**PC-05 — No Calibration Claims Without Signature Completion Engineering estimate parameters may not be presented as calibrated in any external communication until Appendix E.3 is completed and signed by both parties. The validator enforces this at AG-08.**
+**PC-05 — No Calibration Claims Without Completed Calibration Engineering estimate parameters may not be presented as calibrated in any external communication until empirical calibration is complete. The validator enforces this at AG-08.**
 
 
-# **SECTION 10: CERTIFICATION TIERS**
+# **SECTION 10:** CERTIFICATION TIERS
 
 
 | **Tier** | **Name** | **Conditions** | **Certification Eligibility** |
 | - | - | - | - |
-| **Tier 1** | **Full Sovereignty** | **Complete RMR longitudinal process record. All 8 Agency Gates passed for all active arms. RMR milestone achieved — minimum +12 months healthy lifespan, mean and maximum. Appendix E.3 signed.** | **Highest institutional access — publishable governance claim** |
-| **Tier 2** | **Shadow Mode Validated** | **Substantial trajectory record with documented gaps. C0–C3 calibration phases complete. All 8 gates pass on available data with documented exceptions. Appendix E.3 signed.** | **Limited — Target Tier for joint calibration engagement** |
+| **Tier 1** | **Full Sovereignty** | **Complete RMR longitudinal process record. All 8 Agency Gates passed for all active arms. RMR milestone achieved — minimum +12 months healthy lifespan, mean and maximum. Calibration completed.** | **Highest institutional access — publishable governance claim** |
+| **Tier 2** | **Shadow Mode Validated** | **Substantial trajectory record with documented gaps. C0–C3 calibration phases complete. All 8 gates pass on available data with documented exceptions. Calibration completed.** | **Limited — Target Tier for joint calibration engagement** |
 | **Tier 3** | **Output Only** | **Endpoint assays only. No process record. Results stored, not governed.** | **No certification eligibility** |
 
-**Current RMR program governance status: Tier 3 — no process governance layer in place. RMR produces high-quality longitudinal data. That data is not currently processed through a governance pipeline that produces signed, auditable, gate-authorized outputs.**
+**Current RMR program governance status:** Tier 3 — no process governance layer in place. RMR produces high-quality longitudinal data. That data is not currently processed through a governance pipeline that produces signed, auditable, gate-authorized outputs.
 
-**SenescenceOS deployment target: Tier 2 by completion of a joint calibration engagement as described in Appendix E.2.**
+**SenescenceOS deployment target:** Tier 2 by completion of a joint calibration engagement as described in Appendix E.2.
 
 
-# **SECTION 11: EPISTEMIC BOUNDARY**
+# **SECTION 11:** EPISTEMIC BOUNDARY
 
 
 *This section is mandatory in every SPA document. It draws the precise line between what the architecture claims based on engineering and design logic, and what requires joint empirical calibration with the domain authority. Collapsing this boundary destroys credibility with the exact scientists this document is intended to reach.*
@@ -550,17 +554,17 @@ E.6  Failure Archetypes — Adversarial Calibration
 - **The precise RMR milestone threshold requires domain authority confirmation before operational use.**
 
 
-# **SECTION 12: HISTORICAL PRE-MORTEM**
+# **SECTION 12:** HISTORICAL PRE-MORTEM
 
 
-**Confidence tier definitions: \[ARCHITECTURAL CLAIM\] — derivable from SPA engineering logic alone. \[PLAUSIBLE INFERENCE\] — contingent on C\_BO calibration and data access; not stated as fact. \[HISTORICAL RECORD\] — established from published sources; no SPA claim attached.**
+**Confidence tier definitions:** \[ARCHITECTURAL CLAIM\] — derivable from SPA engineering logic alone. \[PLAUSIBLE INFERENCE\] — contingent on C\_BO calibration and data access; not stated as fact. \[HISTORICAL RECORD\] — established from published sources; no SPA claim attached.
 
 
 ## **12.1  TYPE A — RMR Milestone Gap (Operational Governance Gap — Domain Authority’s Own Program)**
 
-**Event: The Robust Mouse Rejuvenation milestone — extending the healthy lifespan of middle-aged mice by a minimum of 12 months using combined SENS-category interventions — has not yet been achieved. The milestone has been a publicly stated program target since approximately 2005. As of 2026, it remains unachieved after more than two decades of SENS research development.**
+**Event:** The Robust Mouse Rejuvenation milestone — extending the healthy lifespan of middle-aged mice by a minimum of 12 months using combined SENS-category interventions — has not yet been achieved. The milestone has been a publicly stated program target since approximately 2005. As of 2026, it remains unachieved after more than two decades of SENS research development.
 
-**Type A qualification: This event is drawn from the LEV Foundation's own program, publicly documented on SENS Research Foundation and LEV Foundation program pages. It is not a critique from outside the SENS framework. It is the program's own stated milestone, in its own terms, unmet after its own timeline.**
+**Type A qualification:** This event is drawn from the LEV Foundation's own program, publicly documented on SENS Research Foundation and LEV Foundation program pages. It is not a critique from outside the SENS framework. It is the program's own stated milestone, in its own terms, unmet after its own timeline.
 
 **\[HISTORICAL RECORD\] — The governance gap: The RMR program targets a combined intervention outcome — all seven SENS damage categories addressed simultaneously or in sequence. Individual category experiments have produced encouraging results in isolation. The gap between individual category success and combined intervention success is not yet bridged. Individual category results are stored as experimental outputs. They are not processed through a coherence layer that verifies whether their combined trajectory is converging on the organism-level milestone.**
 
@@ -571,7 +575,7 @@ E.6  Failure Archetypes — Adversarial Calibration
 
 ## **12.2  TYPE B — Caloric Restriction Primate Divergence (Operational Governance Gap — Broader Domain Literature)**
 
-**Event: Two major longitudinal primate caloric restriction studies — the University of Wisconsin study (Colman et al.) and the National Institute on Aging study (Mattison et al.) — produced apparently contradictory survival outcomes from the same intervention over a 25-year period.**
+**Event:** Two major longitudinal primate caloric restriction studies — the University of Wisconsin study (Colman et al.) and the National Institute on Aging study (Mattison et al.) — produced apparently contradictory survival outcomes from the same intervention over a 25-year period.
 
 **\[HISTORICAL RECORD\] — Timeline: The Wisconsin study, initiated in 1989, reported in 2009 that caloric restriction significantly reduced age-associated disease incidence and delayed mortality in rhesus monkeys. The NIA study reported in 2012 that no significant survival benefit was detected at initial reporting. Reconciliation was reported in 2014: the divergence traced to dietary composition differences, baseline food quality differences in the control groups, age at intervention initiation, and cohort composition differences present from study initiation.**
 
@@ -581,19 +585,19 @@ E.6  Failure Archetypes — Adversarial Calibration
 
 **Important distinction — within-study vs between-study: The CR primate divergence was between-study. RMR2 is within-study: one program, 20 arms, one shared protocol. The governance gap is the same — coherence between arms ungoverned in real time — but within-study arm divergence in RMR2 can surface within a single study window if the coherence gate is operating. This makes the within-study governance architecture more actionable and more urgent for the RMR2 design specifically.**
 
-**Sources: *Science* 325:201–204 (Colman et al. 2009); *Nature* 489:318–321 (Mattison et al. 2012); *Nature Communications* 5:3557 (Colman et al. 2014).**
+***Sources: ***Science*** 325:201–204 (Colman et al. 2009); ***Nature*** 489:318–321 (Mattison et al. 2012); ***Nature Communications** 5:3557 (Colman et al. 2014).**
 
 
 ## **12.3  TYPE C (Supplementary) — 2005 EMBO Report (Reputational Governance Gap)**
 
-**Event: Twenty-eight biologists co-signed a statement published in *EMBO Reports* (Warner et al., 2005) dismissing SENS as "highly speculative." A direct response was published in the same issue by the SENS framework originator.**
+***Event: Twenty-eight biologists co-signed a statement published in ***EMBO Reports** (Warner et al., 2005) dismissing SENS as "highly speculative." A direct response was published in the same issue by the SENS framework originator.**
 
 **\[ARCHITECTURAL CLAIM\] — What SenescenceOS addresses: An architecture producing signed, provenance-traceable, auditable outputs from SENS experimental pipelines is the governance record that the 2005 EMBO signatories implicitly demanded. Every gate-authorized output is a statement not just about what was measured, but about the process by which the measurement was made, verified, and authorized. That is the institutional credibility infrastructure that was absent in 2005 and is still absent in 2026.**
 
 **Dual-register connection across TYPE A, TYPE B, and TYPE C: All three events illustrate the same governance gap through three different consequence registers. TYPE A: the program's own milestone not yet achieved — operational cost. TYPE B: 25-year divergence between two independent research programs — research efficiency cost. TYPE C: a decade of reputational friction with mainstream gerontology — institutional credibility cost.**
 
 
-# **APPENDIX A: DEPLOYMENT CLASSIFICATION**
+# **APPENDIX A:** DEPLOYMENT CLASSIFICATION
 
 
 ## **A.1  Two-Layer Classification**
@@ -618,7 +622,7 @@ E.6  Failure Archetypes — Adversarial Calibration
 | **Governance Vocabulary** | **SENS seven damage categories → executable gates** |
 
 
-# **APPENDIX B: VARIABLE DICTIONARY**
+# **APPENDIX B:** VARIABLE DICTIONARY
 
 
 ## **B.0  Symbol Table**
@@ -645,10 +649,10 @@ E.6  Failure Archetypes — Adversarial Calibration
 | DAV(W)     = weighted\_slope(damage\_accumulation\_streams within window W, per SENS category) RCI(W)     = delta\_repair\_capacity(subject\_arm, comparator\_arm, W)              \[R\_baseline required as denominator — per-subject measurement, not population mean\] CCS(W)     = 1 - normalized\_divergence(seven\_SENS\_gate\_streams within W)              \[Requires all seven categories tracked; sparse tracking invalidates CCS\] BNI(W)     = context\_match(strain, sex, age\_at\_initiation, housing\_protocol, baseline\_health\_index)              \[AG-05 requires BNI applied before cross-arm comparison is authorized\] IDL(W)     = irreversible\_fraction(damage\_load, intervention\_window, W)              \[Rising IDL is the entropy signal — intervention window closing\] CJI(W)     = Var(coherence\_index\_per\_category(t)) over window W              \[Higher CJI = higher instability; rising CJI under favorable DAV = early AG-03 warning\] C\_BO       = biomarker\_trajectory\_to\_outcome\_mapping\_function(cohort\_arm, W\_macro)              \[Not yet defined — highest-priority calibration item — see Sections 5.3, 11.2, 12.1\]              \[Absence of C\_BO means AG-04 blocks all survival prediction claims — correct behavior\] |
 | - |
 
-*Calibration: All coefficients and exact implementations are preliminary and require joint calibration with the domain authority. No coefficient may be used in an external claim without completing Appendix E.3.*
+*Calibration: All coefficients and exact implementations are preliminary and require joint calibration with the domain authority. No coefficient may be used in an external claim without completing empirical calibration.*
 
 
-# **APPENDIX C: VALIDATOR NODE JSON CONTRACTS**
+# **APPENDIX C:** VALIDATOR NODE JSON CONTRACTS
 
 
 *Preliminary — to follow first technical integration session with domain authority.*
@@ -659,7 +663,7 @@ E.6  Failure Archetypes — Adversarial Calibration
 **Full V0–V7 endpoint specification to be completed in first technical integration session.**
 
 
-# **APPENDIX D: VALIDATION MATRIX**
+# **APPENDIX D:** VALIDATION MATRIX
 
 
 | **TV-ID** | **Scenario** | **Input** | **Expected Gate Response** | **Pass Criterion** | **Derived From** | **Status** |
@@ -673,18 +677,18 @@ E.6  Failure Archetypes — Adversarial Calibration
 | **TV-07** | **Human lifespan projection without scaling boundary** | **RMR mouse data used to authorize human lifespan extension claim; no Section 11 boundary drawn** | **PC-04 triggered** | **Projection blocked; Section 11 boundary required before claim authorized** | **PC-04** | **Draft** |
 | **TV-08** | **Uncalibrated parameter presented as calibrated** | **V\_sig value used in output without calibration status label** | **AG-08 FAIL** | **Output blocked; calibration status disclosure required on all parameters** | **Section 11 / AG-08** | **Draft** |
 
-**Planned additional test vectors:**
+**Planned additional test vectors: **
 
-- **TV-09: RMR2 multi-arm combination coherence — 20-arm design with 4 arms showing divergent CJI trajectory**
+- **TV-09:** RMR2 multi-arm combination coherence — 20-arm design with 4 arms showing divergent CJI trajectory
 
-- **TV-10: Flight recorder hash chain verification — audit trail tamper detection across V0–V7 artifacts**
+- **TV-10:** Flight recorder hash chain verification — audit trail tamper detection across V0–V7 artifacts
 
-- **TV-11: Calibration signature block verification — Appendix E.3 completion check before Tier 2 claim authorization**
+- **TV-11:** Calibration completion verification — empirical calibration check before Tier 2 claim authorization
 
-- **TV-12: Smart-cage stream interruption in RMR2 — missing stream does not produce false-negative coherence reading**
+- **TV-12:** Smart-cage stream interruption in RMR2 — missing stream does not produce false-negative coherence reading
 
 
-# **APPENDIX E: CALIBRATION DATASET SPECIFICATION**
+# **APPENDIX E:** CALIBRATION DATASET SPECIFICATION
 
 
 ## **E.1  Parameters Requiring Calibration**
@@ -713,27 +717,16 @@ E.6  Failure Archetypes — Adversarial Calibration
 | **C0** | **Discovery** | **Pre-engagement** | **Confirm active RMR dataset and protocol version; data access discussion; W\_micro confirmation; RMR milestone threshold confirmation; scope of collaboration agreement** | **Signed data-sharing MOU or collaboration agreement — C1 cannot proceed without this deliverable** |
 | **C1** | **First Data Extraction** | **Weeks 1–4 post-C0 MOU** | **Compute baseline distributions; C\_BO calibration first (highest priority); then V\_sig, V\_warn from control arm data** | **Threshold proposal pack — preliminary values with confidence intervals** |
 | **C2** | **Joint Review** | **Weeks 5–8 post-C1** | **Joint scientist-architect review session; all disagreements documented with specific technical reason; no silent acceptance** | **Signed revision document — accepted, rejected, and deferred items recorded** |
-| **C3** | **Shadow Validation** | **Weeks 9–12 post-C2** | **Run calibrated candidates against historical RMR windows; compare gate outputs to known study outcomes** | **Tier 2 threshold table — values labeled CALIBRATED pending E.3 signature** |
-| **C4** | **External Lock** | **Week 13 post-C3** | **Formal signoff; Appendix E.3 signature block completion** | **Calibration certification — Tier 2 eligible; values may be presented as calibrated in external communications** |
+| **C3** | **Shadow Validation** | **Weeks 9–12 post-C2** | **Run calibrated candidates against historical RMR windows; compare gate outputs to known study outcomes** | **Tier 2 threshold table — values labeled CALIBRATED pending empirical calibration completion** |
+| **C4** | **External Lock** | **Week 13 post-C3** | **Formal signoff; calibration certification** | **Calibration certification — Tier 2 eligible; values may be presented as calibrated in external communications** |
 
-## **E.3  Calibration Signature Block Pattern**
+## **E.3  Calibration Philosophy**
 
-**The following signature block pattern is required to authorize Tier 2 certification for any operational deployment of this architecture. Both parties must sign the completed calibration record before any parameter may be presented as calibrated in external communications.**
-
-| **Party** | **Role** | **Signature** | **Date** |
-| - | - | - | - |
-| **[Domain Authority]** | **Domain Authority — [institution]** | **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_** | **\_\_\_\_\_\_\_\_\_\_** |
-| **Regis Benoit Brice Nde Tene** | **Lead Architect — Sovereign Process Architecture** | **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_** | **\_\_\_\_\_\_\_\_\_\_** |
-
-**Explicit rule: Parameters may not be presented as calibrated in any external communication until this signature block is completed and dated for the specific deployment. The architecture enforces this at AG-08 — no output carrying uncalibrated parameters without explicit "Engineering estimate pending calibration" disclosure is authorized through the validator.**
-
-## **E.4  Calibration Philosophy**
-
-**SenescenceOS is intentionally built to help the recipient disagree with it in a disciplined way. The engineering estimates in this specification are not placeholders for future data — they are explicit hypotheses about the domain that the calibration process is designed to test. Some will be confirmed. Some will be wrong. The architecture is correct not because its thresholds are right, but because its structure for updating thresholds is sound. Every engineering estimate in this document is a question posed to the domain authority. The Appendix E.3 signature block is the mechanism for answering those questions in a way that is scientifically defensible and institutionally binding.**
+**SenescenceOS is intentionally built to help the recipient disagree with it in a disciplined way. The engineering estimates in this specification are not placeholders for future data — they are explicit hypotheses about the domain that the calibration process is designed to test. Some will be confirmed. Some will be wrong. The architecture is correct not because its thresholds are right, but because its structure for updating thresholds is sound. Every engineering estimate in this document is a question posed to the domain authority through empirical calibration.**
 
 **语境生义 applies here too. The same calibration dataset means different things depending on which parameter it is calibrating, which cohort arm it came from, and whether C\_BO is already defined or still pending. Calibration order matters. C\_BO first. Then velocity thresholds against control arms. Then coherence thresholds against known divergent arms. The C0–C4 phase sequence in E.2 encodes the correct calibration order.**
 
-## **E.5  Hindcast Validation Events**
+## **E.4  Hindcast Validation Events**
 
 **Two historical events are targeted for retrospective calibration. Using a single event would risk overfitting the architecture to one failure mode. The two events cover different governance failure modes, different gates, and different timescales — but both trace to the same underlying gap: the absence of a coherence layer connecting individual process signals to combined outcome authorization.**
 
@@ -742,7 +735,7 @@ E.6  Failure Archetypes — Adversarial Calibration
 | **RMR Milestone Gap (2005 – 2026, ongoing)** | **AG-03 (coherence between category results and combined milestone), AG-04 (C\_BO priority calibration), AG-02 (minimum data density)** | **LEV Foundation and SENS Research Foundation program documentation; de Grey published work on combined intervention strategy** | **Within-study coherence failure — individual category improvements not verified against combined milestone convergence** |
 | **CR Primate Divergence (Wisconsin 2009 vs NIA 2012)** | **AG-05 (Baseline Normalization — cohort composition differences), AG-04 (C\_BO — biomarker-survival coherence failure), TV-05 validation** | **Colman et al. 2009 (Science); Mattison et al. 2012 (Nature); Colman et al. 2014 (Nature Communications)** | **Between-study coherence failure — biomarker trajectories did not predict survival outcomes consistently across study populations with different baseline compositions** |
 
-## **E.6  Failure Archetypes — Adversarial Calibration**
+## **E.5  Failure Archetypes — Adversarial Calibration**
 
 **These six archetypes are the adversarial test cases for SenescenceOS calibration. A calibration that only works on straightforward improvement trajectories is not calibration — it is confirmation bias. Each archetype is a governance stress test designed to find the failure mode before it reaches the study endpoint.**
 
@@ -794,6 +787,8 @@ E.6  Failure Archetypes — Adversarial Calibration
 *No citation is invented. Every specific number in this document traces to a named reference above or is explicitly labeled "Engineering estimate pending calibration" or "Requires domain authority confirmation."*
 
 
+
+
 # **CLOSING PRINCIPLE**
 
 
@@ -813,6 +808,7 @@ E.6  Failure Archetypes — Adversarial Calibration
 
 
 **语境生义 — Context creates Meaning.**
+
 
 
 © 2026 Regis Benoit Brice Nde Tene. All rights reserved.
